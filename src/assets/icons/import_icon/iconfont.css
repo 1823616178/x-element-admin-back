@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "front"; /* Project id 2776805 */
+  src: url('iconfont.eot?t=1630312741886'); /* IE9 */
+  src: url('iconfont.eot?t=1630312741886#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('iconfont.woff?t=1630312741886') format('woff'),
+       url('iconfont.ttf?t=1630312741886') format('truetype'),
+       url('iconfont.svg?t=1630312741886#front') format('svg');
+}
+
+.front {
+  font-family: "front" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.front-icon-download:before {
+  content: "\e607";
+}
+
+.front-icon-flow-resume:before {
+  content: "\e659";
+}
+
+.front-icon-refresh:before {
+  content: "\e627";
+}
+

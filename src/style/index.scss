@@ -1,0 +1,234 @@
+div {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+p {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+/* fade-transform */
+.fade-transform-leave-active, .fade-transform-enter-active {
+  transition: all .4s;
+}
+
+.fade-transform-enter {
+  opacity: 0;
+  //transform: translateX(-30px);
+  //transform: rotate(160deg);
+}
+
+.fade-transform-leave-to {
+  opacity: 0.5;
+  transition: all .4s;
+  //transform: translateX(30px);
+  //transform: rotate(40deg);
+}
+
+.el-table__fixed::before {
+  background: none !important;
+}
+
+.el-table__fixed-right::before, .el-table__fixed::before {
+  background: none !important;
+
+}
+
+.el-menu {
+  //background-color: #f5f6f7 !important;
+  border-right: 0 !important;
+  padding: 5px 0 4px 0;
+
+  .el-menu-item {
+    height: 40px !important;
+    line-height: 40px !important;
+    margin-top: 8px;
+    font-size: 14px !important;
+    padding-left: 77px !important;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+
+  .el-menu-item > i {
+    margin-right: 12px;
+  }
+
+  .el-submenu__title {
+    height: 40px;
+    line-height: 40px;
+    //margin-top: 8px;
+    padding-left: 35px !important;
+    font-size: 16px !important;
+    display: flex;
+    align-items: center;
+  }
+
+  .el-submenu__title > i {
+    margin-right: 12px !important;
+  }
+}
+
+.kb_block {
+  padding: 19px 13px;
+}
+
+body {
+  margin: 0;
+}
+
+.box-card {
+  min-height: 120px;
+
+  .el-input__inner {
+    height: 38px !important;
+    line-height: 38px !important;
+    border: 1px solid #F4F4F4 !important;
+    color: #303133 !important;
+  }
+
+
+  .el-card__header {
+    padding: 0 20px !important;
+    height: 44px !important;
+    line-height: 44px;
+    text-align: left;
+  }
+
+  .el-card__body {
+    padding: 10px 20px;
+
+  }
+
+  .clearfix {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    span {
+      //display: inline-block;
+      //vertical-align: middle;
+      //width: calc(100% - 18px);
+    }
+
+    .title_icon {
+      display: inline-block;
+      vertical-align: middle;
+      height: 18px;
+      width: 18px;
+      position: relative;
+
+      img {
+        width: 18px;
+        vertical-align: top;
+        height: 18px;
+      }
+    }
+  }
+}
+
+.card_bot {
+  margin-bottom: 15px;
+}
+
+.title_select {
+  height: 44px;
+  line-height: 44px;
+}
+
+.tableHeader {
+  background: #0099ff;
+}
+
+.title_select {
+
+}
+
+.el-table th > .cell {
+  white-space: nowrap;
+}
+
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 8px;
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(225, 225, 225, 0.5);
+  border-radius: 10px;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(225, 225, 225, 0.5);
+  border-radius: 10px;
+  opacity: 0.1;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/*
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 0, 0, 0.4);
+}
+*/
+
+.card_margin {
+  margin-left: 15px;
+}
+
+.card__body_left {
+  text-align: left;
+}
+
+.tableHeader {
+  background: #0099ff;
+}
+
+.card_NoPadding {
+  padding: 0 !important;
+  height: 150px;
+  color: #FFFFFF;
+}
+
+.box_body_left {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+
+  img {
+    object-fit: cover;
+  }
+}
+
+.box_body_rit {
+
+}
+
+.app-container {
+  padding: 20px 30px;
+}
+
+.el-menu-item.is-active {
+  background: #ecf5ff;
+}
+
+.el-table .el-table__cell {
+  padding: 0 !important;
+  border-bottom: none !important;
+  height: 72px;
+  line-height: 72px;
+}
+
+.el-table th.el-table__cell {
+  border-bottom: 1px solid #EBEEF5 !important;
+}
+
+.el-table th.el-table__cell > .cell {
+  color: #303133;
+}
+
+

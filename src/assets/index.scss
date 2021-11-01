@@ -1,0 +1,158 @@
+.m-button{
+  
+  height: 40px;
+  line-height: 40px;
+  background-color: #1787FB;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  outline:none;
+  padding: 0 20px;
+  cursor: pointer;
+}
+.m-button-circular{
+  border-radius: 20px;
+}
+.m-button.m-button-outline{
+  border : 1px solid #1787FB;
+  color: #1787FB;
+  background-color: white;
+}
+.m-button.m-button-outline:active{
+  border : 1px solid #1787FB;
+  color: #1787FB;
+  background-color: rgb(236, 236, 236);
+}
+.m-button.m-button-outline:focus{
+  border : 1px solid #1787FB;
+  color: #1787FB;
+}
+
+.m-button:active{
+  border: none;
+  background-color: #1785fbd5;
+}
+.m-button:focus{
+  border: none;
+  outline:none
+}
+.m-button.m-button-full{
+width: 100%;
+}
+
+.m-button.text-button{
+  color: #646464;
+  background-color: rgba(0, 0, 0, 0) ;
+}
+
+// 抽取页、搜索页、对比页功能菜单
+.function-menu-card {
+  margin: 30px 0;
+}
+.function-menu-item {
+  font-size: 20px;
+  cursor: pointer;
+}
+.function-menu-item img {
+  width: 80px;
+  height: 80;
+  margin-right: 30px;
+}
+.function-menu-item:not(:last-child) {
+  border-right: 2px solid #E5E5E5;
+}
+
+.function-menu-item.menu-current{
+  color: #1687FA;
+  font-weight: 600;
+}
+
+.align-items-center {
+  align-items: center !important;
+  text-align: center;
+}
+
+table.m-table{
+  width: 100%;
+  thead{
+    background-color: #dbebff;
+   
+    th{
+      padding: 5px;
+      text-align: center;
+    }
+  }
+
+  th,td{
+    border:1px solid #dbebff;
+    text-align: center;
+  }
+}
+
+.m-banner{
+  height: 500px;
+    background-size: auto 100%;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.m-container{
+  max-width: 99% !important;
+}
+
+.m-tags{
+  display: inline-block;
+  div{
+    position: relative;
+    display: inline-block;
+  }
+  div:not(:last-child){
+    padding-right: 20px;
+  }
+  div:not(:first-child){
+    padding-left: 20px;
+  }
+  div:not(:first-child)::before{
+   content: '|';
+   color: #B9B9B9;
+   position: absolute;
+   left: 0;
+  }
+}
+.m-tags.m-tags-btns{
+  div{
+    padding-top: 0;
+    border-radius: 0.25em;
+    line-height: 1.75em;
+    padding: 0 2em 0 2em;
+    border: 1px solid #1877FE;
+  }
+  div:not(:last-child){
+    margin-right: 20px;
+  }
+  div::before{
+    display: none;
+  }
+}
+
+.m-flex{
+  display: flex;
+  text-align: left;
+  >*{
+    flex: 1;
+  }
+}
+.m-flex-center{
+  text-align: center;
+}
+.m-flex-keep-side{
+  >*:first-child{
+    text-align: left;
+  }
+  >*:not(:first-child){
+    text-align: center;
+  }
+  >*:last-child{
+    text-align: right;
+  }
+}
