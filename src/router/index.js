@@ -28,19 +28,24 @@ export const constantRoutes = [
     {
         path: '/404',
         name: '404',
-        component: (resolve) => require(['@/views/error/404'], resolve)
+        component: () => import('@/views/error/404'),
     },
-    /* {
-       path: '/kbinfo',
-       name: '/kbinfo',
-       component: (resolve) => require(['@/views/Manage/Finance/spectaculars/kbinfo'], resolve),
-     },
-     {
-       path: '/DataAnalysis',
-       component: () => import('@/views/Home/DataAnalysis2/index'),
-       name: 'DataAnalysis',
-       meta: {title: '数据看板', allowBack: true, role: "", icon: 'el-icon-s-home'}
-     },*/
+    {
+        path: '/show',
+        name: 'show',
+        component: () => import('@/views/Show/index'),
+    },
+    /*  {
+        path: '/kbinfo',
+        name: '/kbinfo',
+        component: (resolve) => require(['@/views/Manage/Finance/spectaculars/kbinfo'], resolve),
+      },
+      {
+        path: '/DataAnalysis',
+        component: () => import('@/views/Home/DataAnalysis2/index'),
+        name: 'DataAnalysis',
+        meta: {title: '数据看板', allowBack: true, role: "", icon: 'el-icon-s-home'}
+      },*/
     managePageData,
     // yuangongManage
 ]
